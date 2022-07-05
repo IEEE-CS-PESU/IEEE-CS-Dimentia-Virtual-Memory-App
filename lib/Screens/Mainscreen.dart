@@ -31,19 +31,3 @@ class MainScreen extends StatelessWidget{
     );
   }
   }
-/*
-//Logout
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        //child: Center(
-        child: ElevatedButton(onPressed: () {
-          FirebaseAuth.instance.signOut().then((value){
-            Navigator.of(context).pop();
-          });
-        },
-          child: const Text("Log out"),),
-      ),
-    );
-  }
-} */
