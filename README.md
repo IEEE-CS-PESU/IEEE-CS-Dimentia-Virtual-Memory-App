@@ -2,7 +2,7 @@
 A Virtual Memory App for people with dimentia
 
 ## Software used -
-Android Studio
-Flutter
-Firebase
+Android Studio,
+<br />Flutter,
+<br />Firebase
 
