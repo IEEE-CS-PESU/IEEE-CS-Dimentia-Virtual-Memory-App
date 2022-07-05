@@ -45,9 +45,7 @@ class LoginScreenState extends State<LoginScreen> {
             ElevatedButton(child: const Text("Sign in"), onPressed: () {
               FirebaseAuth.instance.signInWithEmailAndPassword(
                   email: _email, password: _password).then((onValue) {}
-              );}/*.catchError((error) {
-                    debugPrint("Error: "+error);
-                })*/
+              );}
             ),
           ],
         ),
